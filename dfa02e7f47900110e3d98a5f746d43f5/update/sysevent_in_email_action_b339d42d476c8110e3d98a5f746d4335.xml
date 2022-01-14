@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">bodyLIKECreazione Nuovo Record,^EQ<item endquery="false" field="body" goto="false" newquery="false" operator="LIKE" or="false" value="Creazione Nuovo Record,"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>New Record from mail</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+current.short_description = email.subject; //Ho assegnato l'oggetto della mail alla short description
+if (current.getTableName() == "x_713641_request_m_richiesta_servizi") {
+current.work_notes = "received from: " + email.origemail + "\n\n" + email.body_text;
+
+
+current.contact_type = "email";
+
+if (email.body.assign != undefined)
+   //il valore può essere assegnato tramite tag
+	current.assigned_to = email.body.assign;
+
+current.insert();
+}
+  
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-20 10:02:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b339d42d476c8110e3d98a5f746d4335</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New Record from mail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sysevent_in_email_action_b339d42d476c8110e3d98a5f746d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-22 10:26:35</sys_updated_on>
+        <table>x_713641_request_m_richiesta_servizi</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

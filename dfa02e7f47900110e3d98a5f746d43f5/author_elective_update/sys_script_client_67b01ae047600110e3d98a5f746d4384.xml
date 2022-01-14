@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Visible SQ</name>
+        <order/>
+        <script><![CDATA[ function onLoad() {
+
+  //Type appropriate comment here, and begin script below
+// var userID = g_user.userID;
+// var Create = g_form.getValue('sys_created_by');
+
+// if( userID == Create) {
+
+// g_form.setReadOnly('assignment_group', true);
+
+// }	
+var create = g_form.getValue('sys_created_by');
+var userID = g_user.userID;
+if(create == userID){
+		// make all fields readonly
+		//var fields = g_form.getEditableFields();
+		//for (var x = 0; x < fields.length; x++) {
+		//	g_form.setReadOnly(fields[x], true);
+		
+
+		// make state and work notes editable
+		g_form.setReadOnly('state', true);
+		g_form.setReadOnly('work_notes', true);
+	}
+
+ }
+ ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Francesco.Maglie</sys_created_by>
+        <sys_created_on>2021-12-17 16:07:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67b01ae047600110e3d98a5f746d4384</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Visible SQ</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_script_client_67b01ae047600110e3d98a5f746d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 17:20:42</sys_updated_on>
+        <table>x_713641_request_m_service_request_table_pw</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_script_client_67b01ae047600110e3d98a5f746d4384</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Visible SQ&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[ function onLoad() {
+
+  //Type appropriate comment here, and begin script below
+// var userID = g_user.userID;
+// var Create = g_form.getValue('sys_created_by');
+
+// if( userID == Create) {
+
+// g_form.setReadOnly('assignment_group', true);
+
+// }	
+var create = g_form.getValue('sys_created_by');
+var userID = g_user.userID;
+if(create == userID){
+		// make all fields readonly
+		//var fields = g_form.getEditableFields();
+		//for (var x = 0; x &lt; fields.length; x++) {
+		//	g_form.setReadOnly(fields[x], true);
+		
+
+		// make state and work notes editable
+		g_form.setReadOnly('state', true);
+		g_form.setReadOnly('work_notes', true);
+	}
+
+ }
+ ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Francesco.Maglie&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-17 16:07:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;67b01ae047600110e3d98a5f746d4384&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Visible SQ&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_67b01ae047600110e3d98a5f746d4384&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-17 17:20:42&lt;/sys_updated_on&gt;&lt;table&gt;x_713641_request_m_service_request_table_pw&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1579164851</payload_hash>
+        <record_name>Visible SQ</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 17:20:42</sys_created_on>
+        <sys_id>4e5262e047a00110e3d98a5f746d43f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17dc96904d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-20 15:13:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c65262e0aca001101ab77b46617ed4f0</update_guid>
+        <update_guid_history>c65262e0aca001101ab77b46617ed4f0:-1579164851,0b51aa20c5a00110a282572d64ed2e2a:239750362,883126a020a00110489fec2cfe660f7a:-973005294,687e1620e6a00110d2027d4bd9299b4b:-1099605197,3c0edeece1600110075cb4e60dd078bf:-342897816,72999a2ca860011059c10e1a142733ed:770582262,51791a2cee6001103f80b8f1b0b07403:-1508257077,da19522c10600110dcc6dec02e50284f:770582262,ef885ae8ac60011023420f225500a031:-479905604,79d71e688760011072d3d2163273fcf2:1699189960,4cb79a68cd6001105c53d5283fc83adb:1314698120,80b69a68d3600110f97da35ba4250121:-844218387,3b461a68de6001105b0828db45453442:-1533816472,5c261ee4a7600110c1ed959ce85e6e75:-844218387,d5151ee47d6001103ef6991a84b2208e:-1941708417,01745aa49a6001104d14666774bf845e:1208689786,70549ee4db60011064f48819a295aac0:985985435,452412e40d600110f165e85e966b5fb1:407470495,64b11624df600110dba19f2ef00cb8db:-168098740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Francesco.Maglie</sys_created_by>
+        <sys_created_on>2021-12-17 17:23:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3d1738f3031a482690dd9fbd7cfd19a4</sys_id>
+        <sys_metadata>67b01ae047600110e3d98a5f746d4384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visible SQ</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="">bd332e3347d00110e3d98a5f746d430d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_67b01ae047600110e3d98a5f746d4384</sys_update_name>
+        <sys_update_version display_value="sys_script_client_67b01ae047600110e3d98a5f746d4384">4e5262e047a00110e3d98a5f746d43f0</sys_update_version>
+        <sys_updated_by>Francesco.Maglie</sys_updated_by>
+        <sys_updated_on>2021-12-17 17:23:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

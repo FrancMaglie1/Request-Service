@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="esc_sc_cat_item">c0728d1373675300c629e1e54cf6a7b3</kb_knowledge_page>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="security_alert">1c375a2b53a82300a699ddeeff7b12d7</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Config Menu">061c4c9747101200ba13a5554ee49084</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-02 20:41:03</sys_created_on>
+        <sys_id>7b69a5b547740110e3d98a5f746d439e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Richieste di Servizio</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sp_portal_7b69a5b547740110e3d98a5f746d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-02 22:25:54</sys_updated_on>
+        <theme/>
+        <title>Richieste di Servizio</title>
+        <ts_index_group/>
+        <url_suffix>richieste_di_servizio</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=7b69a5b547740110e3d98a5f746d439e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sp_portal_7b69a5b547740110e3d98a5f746d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><enable_ais>false</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon/><kb_knowledge_base/><kb_knowledge_page display_value="esc_sc_cat_item">c0728d1373675300c629e1e54cf6a7b3</kb_knowledge_page><login_page/><logo/><notfound_page display_value="security_alert">1c375a2b53a82300a699ddeeff7b12d7</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu display_value="SP Config Menu">061c4c9747101200ba13a5554ee49084</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-02 20:41:03</sys_created_on><sys_id>7b69a5b547740110e3d98a5f746d439e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Richieste di Servizio</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sp_portal_7b69a5b547740110e3d98a5f746d439e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-02 22:25:54</sys_updated_on><theme/><title>Richieste di Servizio</title><ts_index_group/><url_suffix>richieste_di_servizio</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=7b69a5b547740110e3d98a5f746d439e"/></record_update>]]></payload>
+        <payload_hash>1260230613</payload_hash>
+        <record_name>Richieste di Servizio</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-02 22:25:54</sys_created_on>
+        <sys_id>aca14e7947b40110e3d98a5f746d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e1ce62f590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-02 22:25:54</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>e4a14e79dcb40110ae1a4c55688d4885</update_guid>
+        <update_guid_history>e4a14e79dcb40110ae1a4c55688d4885:1260230613,b931fd3d21740110a45af44b773d224a:1175206800,280f21f9737401104a1bc7897f03a9f6:-2006042499,3ca9e9b5ac740110dc4b1fbbd85a503a:-202966016,3ca9e9b5ac740110dc4b1fbbd85a503a:-202966016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Richieste di Servizio">1d46858647300110e3d98a5f746d439c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 12:45:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>3ab0974d3db84a5e9345070dc33bcf84</sys_id>
+        <sys_metadata>7b69a5b547740110e3d98a5f746d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Richieste di Servizio</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sp_portal_7b69a5b547740110e3d98a5f746d439e</sys_update_name>
+        <sys_update_version display_value="sp_portal_7b69a5b547740110e3d98a5f746d439e">aca14e7947b40110e3d98a5f746d4385</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 12:45:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

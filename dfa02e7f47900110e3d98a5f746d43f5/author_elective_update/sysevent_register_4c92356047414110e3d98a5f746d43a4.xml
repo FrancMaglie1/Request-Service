@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>Event for status update</description>
+        <event_name>x_713641_request_m.status.update</event_name>
+        <fired_by>Business Rule</fired_by>
+        <queue/>
+        <suffix>status.update</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 10:25:54</sys_created_on>
+        <sys_id>4c92356047414110e3d98a5f746d43a4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_713641_request_m.status.update</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sysevent_register_4c92356047414110e3d98a5f746d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:22:55</sys_updated_on>
+        <table>x_713641_request_m_richiesta_servizi</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sysevent_register_4c92356047414110e3d98a5f746d43a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>Event for status update</description><event_name>x_713641_request_m.status.update</event_name><fired_by>Business Rule</fired_by><queue/><suffix>status.update</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-11 10:25:54</sys_created_on><sys_id>4c92356047414110e3d98a5f746d43a4</sys_id><sys_mod_count>8</sys_mod_count><sys_name>x_713641_request_m.status.update</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sysevent_register_4c92356047414110e3d98a5f746d43a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-11 14:22:55</sys_updated_on><table>x_713641_request_m_richiesta_servizi</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>729619643</payload_hash>
+        <record_name>x_713641_request_m.status.update</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 14:22:55</sys_created_on>
+        <sys_id>9569a6ec47c14110e3d98a5f746d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e49853beb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:22:55</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>0169a6ec0bc1411086abda49528763e5</update_guid>
+        <update_guid_history>0169a6ec0bc1411086abda49528763e5:729619643,b8d6666cdfc141108a8454d35808b7a9:1010853083,87a5a22cbdc14110961cf54da15752a8:436654305,64a5262c07c141105f42ef0ae04c571b:-642233333,b745e2e8dec14110dbfcd61ea875783c:-2074112723,48a1ee282ac141100cb15549d50a6d90:436654305,1e7bb1683e414110cb28a6ccc48ad75c:-978405119,c8e4bda037414110bb797444d90d2261:-1954730744,592379609d414110c1534b44bce39ff9:-262256582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 14:33:24</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>8dfca5d4252745a49414cdb10390c3c4</sys_id>
+        <sys_metadata>4c92356047414110e3d98a5f746d43a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_713641_request_m.status.update</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Richiesta Servizi">d942d7e147e4c110e3d98a5f746d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sysevent_register_4c92356047414110e3d98a5f746d43a4</sys_update_name>
+        <sys_update_version display_value="sysevent_register_4c92356047414110e3d98a5f746d43a4">9569a6ec47c14110e3d98a5f746d43e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:33:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

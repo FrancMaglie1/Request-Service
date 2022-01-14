@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_713641_request_m_richiesta_servizi</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_713641_request_m.aggiornamentodistato</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;"><strong>c'&egrave; stato un cambiamento di stato sul record: Number:<br /></strong></span></p>
+<p><span style="font-size: 12pt;"><strong>Number: ${number}</strong></span><span style="font-size: 12pt;"><strong><br /><br /></strong></span></p>
+<p><span style="font-size: 12pt;"><strong>State: ${state}<br /></strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Notifica Update Richiesta Servizi</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to,assignment_group</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>bd0b9f8e47533010e3d98a5f746d4359,e086b13147200510e3d98a5f746d43ee</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Update Record </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-18 15:28:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b96c0f7c47204110e3d98a5f746d4321</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Notifica Update Richiesta Servizi</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sysevent_email_action_b96c0f7c47204110e3d98a5f746d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:34:58</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>100</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sysevent_email_action_b96c0f7c47204110e3d98a5f746d4321</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_713641_request_m_richiesta_servizi&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;x_713641_request_m.aggiornamentodistato&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;true&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;c'&amp;egrave; stato un cambiamento di stato sul record: Number:&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Number: ${number}&lt;/strong&gt;&lt;/span&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;State: ${state}&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Notifica Update Richiesta Servizi&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assigned_to,assignment_group&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;bd0b9f8e47533010e3d98a5f746d4359,e086b13147200510e3d98a5f746d43ee&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Update Record &lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-18 15:28:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b96c0f7c47204110e3d98a5f746d4321&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;Notifica Update Richiesta Servizi&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_b96c0f7c47204110e3d98a5f746d4321&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-11 14:34:58&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;100&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-729604242</payload_hash>
+        <record_name>Notifica Update Richiesta Servizi</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 14:34:58</sys_created_on>
+        <sys_id>ed2cae6047054110e3d98a5f746d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4990438a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:34:58</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>692cae6068054110587756c09882d9e0</update_guid>
+        <update_guid_history>692cae6068054110587756c09882d9e0:-729604242,89faea20c705411082d1f97d0ee8475d:443452854,db1aeeecb1c141101162a1a06e3ba75f:1622182209,4be9eaec30c14110075f65698536253c:816368802,079926ec97c141105d5735d594c24a1a:950992951,ead5a62cffc1411036c4d06dd0ec41b8:1057839127,cd85e2e880c141103d793f173201baf4:1467855213,bc75e2e81ec14110261dc84f1ec8cc3f:1057839127,e934e6a8a4c14110d0edad1d60257f55:-1734557166,edf2a2a842c141109b910364ace590e5:-1205044724,f9c16e28d8c1411002e798ce24bb4f55:1896996593,bef892a0cdc1411021f12292cd457618:418389047,40938eec38414110df65e5e4e2bc852d:1896996593,ab528aec43414110d6e534ce3ef191f8:2114802755,bdb182acb44141104fd9138da291844c:1896996593,d6edb9e8d04141105d912895f470ee95:1372208284,b6b8f9a4bd41411080772030da155ccd:1321853401,7c88b1e42d414110d36783b21af46454:-1296969676,f6d7f1240c41411043aed092dad24b61:-1677791848,1ce06e0ee0a00110ec89fedb77b136bf:-1139109983,641e1acabea001107d3259af1f97b7f2:-495797059,1ed74efdbe200510d9f23732511781ff:176186239,2c135d3dbb6cc110d609309f73287c52:1032015995,eb40ddb9b36cc11083d5fb4d7eabe791:-1862576264,b5dea7edb528c110251d431f17a9adca:456635560,dbfa132d83e4c1105fd4c9cccc06bfff:628392936,f99110a59f6c81105b1fc0c64d5db9c7:107641119,db701425af6c81105e472c54354b0f5d:767903865,e83fcce1696c811007c247990f0db6a3:1639750484,932217b01f60411042279185122d8ea8:-2099353589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-11 14:36:38</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>306434d2b11c475e91829357e82be3e9</sys_id>
+        <sys_metadata>b96c0f7c47204110e3d98a5f746d4321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notifica Update Richiesta Servizi</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Richiesta Servizi">d942d7e147e4c110e3d98a5f746d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_b96c0f7c47204110e3d98a5f746d4321</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_b96c0f7c47204110e3d98a5f746d4321">ed2cae6047054110e3d98a5f746d43e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-11 14:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

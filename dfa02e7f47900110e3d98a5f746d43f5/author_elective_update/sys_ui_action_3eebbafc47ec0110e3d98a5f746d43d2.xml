@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.assigned_to == gs.getUserID() || gs.getUser().isMemberOf(current.assignment_group);</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>WorkInProgress</name>
+        <onclick>setStateToInProgress()</onclick>
+        <order>400</order>
+        <script><![CDATA[(function(){
+    current.state = 2; // set the opened ticket state to in progress
+    current.update();	
+    gs.setRedirectUrl(current); 
+})();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-18 14:00:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3eebbafc47ec0110e3d98a5f746d43d2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>WorkInProgress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_ui_action_3eebbafc47ec0110e3d98a5f746d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 09:30:04</sys_updated_on>
+        <table>x_713641_request_m_richiesta_servizi</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_ui_action_3eebbafc47ec0110e3d98a5f746d43d2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.assigned_to == gs.getUserID() || gs.getUser().isMemberOf(current.assignment_group);&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;WorkInProgress&lt;/name&gt;&lt;onclick&gt;setStateToInProgress()&lt;/onclick&gt;&lt;order&gt;400&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function(){
+    current.state = 2; // set the opened ticket state to in progress
+    current.update();	
+    gs.setRedirectUrl(current); 
+})();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-18 14:00:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3eebbafc47ec0110e3d98a5f746d43d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;WorkInProgress&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_3eebbafc47ec0110e3d98a5f746d43d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-21 09:30:04&lt;/sys_updated_on&gt;&lt;table&gt;x_713641_request_m_richiesta_servizi&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1784492556</payload_hash>
+        <record_name>WorkInProgress</record_name>
+        <reverted_from/>
+        <source>d3a02e7f47900110e3d98a5f746d43f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 09:30:04</sys_created_on>
+        <sys_id>43fcd5b547acc110e3d98a5f746d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddc53953c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 09:30:04</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>cbfcd5b550acc110c551a892186b75ad</update_guid>
+        <update_guid_history>cbfcd5b550acc110c551a892186b75ad:-1784492556,6a7c9575beacc1102e3ac60366f57eef:-491779084,2d5e1fedf5e4c110c1c3fa06e6294955:1228304791,48ecffbcc8a04110070efd39cda6d46a:-1546646872,20d18b347f2041102f707cd77f0de2b7:227314454,d02187f0742041107813ff63038167b6:-2040715754,d5a08334f520411030665860cff8bc1b:1346944472,cc700334b3204110189f6fa0cce0f13f:1915697495,9320077053204110b933ebf0f7230204:-2029491644,a39ff2f09620411060d3897da3bdfa1e:-396907891,b94ffeb0472041109bbd9388564dd1fb:227555097,51febab0fb20411006526fdd5b6be9f9:-457211867,be1e76704d2041108fb10509144bf6b7:103880530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 09:38:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>45cb77f07b6d42f4b1213cac7698be10</sys_id>
+        <sys_metadata>3eebbafc47ec0110e3d98a5f746d43d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkInProgress</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Richiesta Servizi">d942d7e147e4c110e3d98a5f746d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_ui_action_3eebbafc47ec0110e3d98a5f746d43d2</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_3eebbafc47ec0110e3d98a5f746d43d2">43fcd5b547acc110e3d98a5f746d43ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 09:38:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

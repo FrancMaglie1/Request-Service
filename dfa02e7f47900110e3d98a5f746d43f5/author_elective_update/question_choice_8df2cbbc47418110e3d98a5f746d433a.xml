@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Priorita">13ffb2f847418110e3d98a5f746d434d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:53:15</sys_created_on>
+        <sys_id>8df2cbbc47418110e3d98a5f746d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2 - High</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>question_choice_8df2cbbc47418110e3d98a5f746d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:53:15</sys_updated_on>
+        <text>2 - High</text>
+        <value/>
+    </question_choice>
+    <fx_price action="DELETE" query="id=8df2cbbc47418110e3d98a5f746d433a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>question_choice_8df2cbbc47418110e3d98a5f746d433a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Priorita">13ffb2f847418110e3d98a5f746d434d</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-12 10:53:15</sys_created_on><sys_id>8df2cbbc47418110e3d98a5f746d433a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2 - High</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>question_choice_8df2cbbc47418110e3d98a5f746d433a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-12 10:53:15</sys_updated_on><text>2 - High</text><value/></question_choice><fx_price action="delete_multiple" query="id=8df2cbbc47418110e3d98a5f746d433a"/></record_update>]]></payload>
+        <payload_hash>-904204668</payload_hash>
+        <record_name>2 - High</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:53:15</sys_created_on>
+        <sys_id>23f24bbc47418110e3d98a5f746d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4deba2720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:53:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>6bf24bbc5f41811042a297596751adda</update_guid>
+        <update_guid_history>6bf24bbc5f41811042a297596751adda:-904204668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2 - High">867343fc47418110e3d98a5f746d43b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:55:19</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1cd9856fa3744d78a04d4b1b4903bbe4</sys_id>
+        <sys_metadata>8df2cbbc47418110e3d98a5f746d433a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2 - High</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="">13ffb2f847418110e3d98a5f746d434d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>question_choice_8df2cbbc47418110e3d98a5f746d433a</sys_update_name>
+        <sys_update_version display_value="question_choice_8df2cbbc47418110e3d98a5f746d433a">23f24bbc47418110e3d98a5f746d43db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:55:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

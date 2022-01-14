@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[ function onCondition() {
+
+var user_id = g_user.userID;
+var create = g_form.getValue('sys_Created_by');
+var user = g_user.userName;
+var watch = g_form.getValue('watch_list');	
+	
+	if(user == create || watch.includes(g_user.userID)){
+	//g_form.setReadOnly('assignment_group',true);
+ var fields = g_form.getEditableFields();
+ for (var x = 0; x < fields.length; x++) {
+     g_form.setReadOnly(fields[x], true);
+}
+	
+	
+	}
+
+  }
+]]></script_true>
+        <set_values/>
+        <short_description>Visibility SR</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 19:23:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>765e7ea847e00110e3d98a5f746d435f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Visibility SR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_ui_policy_765e7ea847e00110e3d98a5f746d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 07:56:05</sys_updated_on>
+        <table>x_713641_request_m_richiesta_servizi</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_ui_policy_765e7ea847e00110e3d98a5f746d435f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[ function onCondition() {
+
+var user_id = g_user.userID;
+var create = g_form.getValue('sys_Created_by');
+var user = g_user.userName;
+var watch = g_form.getValue('watch_list');	
+	
+	if(user == create || watch.includes(g_user.userID)){
+	//g_form.setReadOnly('assignment_group',true);
+ var fields = g_form.getEditableFields();
+ for (var x = 0; x &lt; fields.length; x++) {
+     g_form.setReadOnly(fields[x], true);
+}
+	
+	
+	}
+
+  }
+]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Visibility SR&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-17 19:23:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;765e7ea847e00110e3d98a5f746d435f&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Visibility SR&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_765e7ea847e00110e3d98a5f746d435f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-21 07:56:05&lt;/sys_updated_on&gt;&lt;table&gt;x_713641_request_m_richiesta_servizi&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1108038149</payload_hash>
+        <record_name>Visibility SR</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 07:56:06</sys_created_on>
+        <sys_id>96778df1476cc110e3d98a5f746d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddbfd8a270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 07:56:06</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>de778df1e46cc1107962831ca3474410</update_guid>
+        <update_guid_history>de778df1e46cc1107962831ca3474410:-1108038149,94e8eb694028c1104e302b4ccc21340e:-1758310885,bc57efe5cf28c1103c1710f58a1ec0c1:1527100376,e8d6ebe5f928c110c9e6fd68968dd4f5:-1986425864,8c666fa5bf28c1104eb5e5667902f184:1030054669,e475ef650728c110fc727aae42e00b15:-896550385,ef90ef619f28c110147f36d00be34644:1697416475,5896dfe502e4c110918a8644232bead2:-2101565361,1b5597a520e4c110236ce0abf2a8456f:1697416475,0c138b25f0a4c1102812d74b94d10277:-53279384,79c5d155b924811057a6f1465f4e85ab:127058400,18b9c40d72e0411074d96d9e7b1ee6a4:1195289812,47ca53ec5a240110a1a04983d5de2f01:236719951,31779bacf624011009d107b09bc5e5c5:1491187449,09945be864240110e24422a2021c87eb:952812853,2b8357e8932401108e76b3a714afb279:2094544596,7f0ffea8a4e001103060e14209924fed:-1926721452,20beb2e89ce0011070e283b08507b990:1390932943,c77eba689be001109a658794a4bf3d0d:1881820362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 08:00:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>12f9594105274aa6828361e65a8ae8a4</sys_id>
+        <sys_metadata>765e7ea847e00110e3d98a5f746d435f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visibility SR</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Richiesta Servizi">d942d7e147e4c110e3d98a5f746d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_765e7ea847e00110e3d98a5f746d435f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_765e7ea847e00110e3d98a5f746d435f">96778df1476cc110e3d98a5f746d4311</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 08:00:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

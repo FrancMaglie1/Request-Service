@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_713641_request_m_service_request_table_pw">x_713641_request_m_service_request_table_pw</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SER</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-15 14:58:17</sys_created_on>
+        <sys_id>009eeb7f47940110e3d98a5f746d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SER</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_number_009eeb7f47940110e3d98a5f746d4354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-15 14:58:17</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_number_009eeb7f47940110e3d98a5f746d4354</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_713641_request_m_service_request_table_pw">x_713641_request_m_service_request_table_pw</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SER</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-15 14:58:17</sys_created_on><sys_id>009eeb7f47940110e3d98a5f746d4354</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SER</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sys_number_009eeb7f47940110e3d98a5f746d4354</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-15 14:58:17</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1540899754</payload_hash>
+        <record_name>SER</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-15 14:58:17</sys_created_on>
+        <sys_id>489e23bf47940110e3d98a5f746d4345</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_recorded_at>17dbe99ea9c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-20 15:13:08</sys_updated_on>
+        <type>Number</type>
+        <update_guid>809e23bfa09401107c8b6873625b3545</update_guid>
+        <update_guid_history>809e23bfa09401107c8b6873625b3545:1540899754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 00:42:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>774bdfd7cb664378bba1fdf4ac84e6f9</sys_id>
+        <sys_metadata>009eeb7f47940110e3d98a5f746d4354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SER</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="">bd332e3347d00110e3d98a5f746d430d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_number_009eeb7f47940110e3d98a5f746d4354</sys_update_name>
+        <sys_update_version display_value="sys_number_009eeb7f47940110e3d98a5f746d4354">489e23bf47940110e3d98a5f746d4345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 00:42:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

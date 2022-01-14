@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_relative_duration">
+    <cmn_relative_duration action="DELETE">
+        <active>true</active>
+        <name>5 business day at 4 p.m</name>
+        <script><![CDATA[// 5 business days by 4pm if before 10am
+var days = 5;
+// If the current time is after 10:00, add another day
+if (calculator.isAfter(calculator.startDateTime, "10:00:00")) {
+   days++;
+}
+
+calculator.calcRelativeDueDate(calculator.startDateTime, days, "16:00:00");  
+]]></script>
+        <sys_class_name>cmn_relative_duration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-20 17:49:17</sys_created_on>
+        <sys_id>9d85422547e0c110e3d98a5f746d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5 business day at 4 p.m</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>cmn_relative_duration_9d85422547e0c110e3d98a5f746d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-20 17:49:17</sys_updated_on>
+    </cmn_relative_duration>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>cmn_relative_duration_9d85422547e0c110e3d98a5f746d43da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_relative_duration"&gt;&lt;cmn_relative_duration action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;name&gt;5 business day at 4 p.m&lt;/name&gt;&lt;script&gt;&lt;![CDATA[// 5 business days by 4pm if before 10am
+var days = 5;
+// If the current time is after 10:00, add another day
+if (calculator.isAfter(calculator.startDateTime, "10:00:00")) {
+   days++;
+}
+
+calculator.calcRelativeDueDate(calculator.startDateTime, days, "16:00:00");  
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;cmn_relative_duration&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-12-20 17:49:17&lt;/sys_created_on&gt;&lt;sys_id&gt;9d85422547e0c110e3d98a5f746d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;5 business day at 4 p.m&lt;/sys_name&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_relative_duration_9d85422547e0c110e3d98a5f746d43da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-12-20 17:49:17&lt;/sys_updated_on&gt;&lt;/cmn_relative_duration&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1520879158</payload_hash>
+        <record_name>5 business day at 4 p.m</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-20 17:49:17</sys_created_on>
+        <sys_id>bda5422547e0c110e3d98a5f746d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dd8f642230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-20 17:49:17</sys_updated_on>
+        <type>Relative Duration</type>
+        <update_guid>f5a5422562e0c110ed8a0830c5e36888</update_guid>
+        <update_guid_history>f5a5422562e0c110ed8a0830c5e36888:1520879158</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="5 business day at 4 p.m">32fc57ad47e4c110e3d98a5f746d43f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 00:10:49</sys_created_on>
+        <sys_db_object display_value="" name="cmn_relative_duration">cmn_relative_duration</sys_db_object>
+        <sys_id>57d342a152b14d50a2efbe7a8a47d9f1</sys_id>
+        <sys_metadata>9d85422547e0c110e3d98a5f746d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5 business day at 4 p.m</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>cmn_relative_duration_9d85422547e0c110e3d98a5f746d43da</sys_update_name>
+        <sys_update_version display_value="cmn_relative_duration_9d85422547e0c110e3d98a5f746d43da">bda5422547e0c110e3d98a5f746d4388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 00:10:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

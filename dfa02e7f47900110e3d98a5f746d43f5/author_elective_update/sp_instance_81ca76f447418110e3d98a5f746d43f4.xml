@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a1b2110247700110e3d98a5f746d438a</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:17:18</sys_created_on>
+        <sys_id>81ca76f447418110e3d98a5f746d43f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sp_instance_81ca76f447418110e3d98a5f746d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:19:10</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_713641_request_m_richiesta_servizi%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_list_css%3D%26sysparm_query%3D%26sysparm_referring_url%3Dx_713641_request_m_richiesta_servizi_list.do%26sysparm_target%3D%26sysparm_view%3D",
+		"displayValue": "https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_713641_request_m_richiesta_servizi%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_list_css%3D%26sysparm_query%3D%26sysparm_referring_url%3Dx_713641_request_m_richiesta_servizi_list.do%26sysparm_target%3D%26sysparm_view%3D"
+	},
+	"button_text": {
+		"value": "Crea una Richiesta",
+		"displayValue": "Crea una Richiesta"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=81ca76f447418110e3d98a5f746d43f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sp_instance_81ca76f447418110e3d98a5f746d43f4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;a1b2110247700110e3d98a5f746d438a&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-12 10:17:18&lt;/sys_created_on&gt;&lt;sys_id&gt;81ca76f447418110e3d98a5f746d43f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_81ca76f447418110e3d98a5f746d43f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-12 10:19:10&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_713641_request_m_richiesta_servizi%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_list_css%3D%26sysparm_query%3D%26sysparm_referring_url%3Dx_713641_request_m_richiesta_servizi_list.do%26sysparm_target%3D%26sysparm_view%3D",
+		"displayValue": "https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_713641_request_m_richiesta_servizi%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_list_css%3D%26sysparm_query%3D%26sysparm_referring_url%3Dx_713641_request_m_richiesta_servizi_list.do%26sysparm_target%3D%26sysparm_view%3D"
+	},
+	"button_text": {
+		"value": "Crea una Richiesta",
+		"displayValue": "Crea una Richiesta"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=81ca76f447418110e3d98a5f746d43f4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1166442937</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:19:10</sys_created_on>
+        <sys_id>9c3b3ef447418110e3d98a5f746d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4dcc6d840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:19:10</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>183b3ef499418110e212250214cb47e5</update_guid>
+        <update_guid_history>183b3ef499418110e212250214cb47e5:1166442937,390b7af4f84181109198214ab670dd96:1840339695,cdca76f42441811015a20042246548f5:-120288751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">21fbf23847418110e3d98a5f746d430d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:22:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>053cab2c117f4a8580e77ff9d9c41339</sys_id>
+        <sys_metadata>81ca76f447418110e3d98a5f746d43f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sp_instance_81ca76f447418110e3d98a5f746d43f4</sys_update_name>
+        <sys_update_version display_value="sp_instance_81ca76f447418110e3d98a5f746d43f4">9c3b3ef447418110e3d98a5f746d43e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:22:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

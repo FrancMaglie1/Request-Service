@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="DELETE">
+        <order>100</order>
+        <sp_portal display_value="Richieste Di Servizio">aea8283447300110e3d98a5f746d4388</sp_portal>
+        <sp_search_source display_value="Creazione Richiesta">e03e60fc47300110e3d98a5f746d437a</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:50:31</sys_created_on>
+        <sys_id>7deea8fc47300110e3d98a5f746d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Richieste Di Servizio.Creazione Richiesta</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_7deea8fc47300110e3d98a5f746d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:50:31</sys_updated_on>
+    </m2m_sp_portal_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>m2m_sp_portal_search_source_7deea8fc47300110e3d98a5f746d431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="Richieste Di Servizio">aea8283447300110e3d98a5f746d4388</sp_portal><sp_search_source display_value="Creazione Richiesta">e03e60fc47300110e3d98a5f746d437a</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-30 13:50:31</sys_created_on><sys_id>7deea8fc47300110e3d98a5f746d431f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Richieste Di Servizio.Creazione Richiesta</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>m2m_sp_portal_search_source_7deea8fc47300110e3d98a5f746d431f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-30 13:50:31</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+        <payload_hash>-14320607</payload_hash>
+        <record_name>Richieste Di Servizio.Creazione Richiesta</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:50:31</sys_created_on>
+        <sys_id>b1eea8fc47300110e3d98a5f746d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e0b9b42e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:50:31</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>f9eea8fc8d3001104d2b6f4d74662621</update_guid>
+        <update_guid_history>f9eea8fc8d3001104d2b6f4d74662621:-14320607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Richieste Di Servizio.Creazione Richiesta">6e6965b547740110e3d98a5f746d43df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-02 20:40:05</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_search_source">m2m_sp_portal_search_source</sys_db_object>
+        <sys_id>2ae20eb2a32346b4b77fc078bfd52a10</sys_id>
+        <sys_metadata>7deea8fc47300110e3d98a5f746d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Richieste Di Servizio.Creazione Richiesta</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_search_source_7deea8fc47300110e3d98a5f746d431f</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_search_source_7deea8fc47300110e3d98a5f746d431f">b1eea8fc47300110e3d98a5f746d4322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-02 20:40:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
