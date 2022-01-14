@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>active</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 15:41:16</sys_created_on>
+        <sys_id>42914d9447640110e3d98a5f746d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>active</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_42914d9447640110e3d98a5f746d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 15:41:16</sys_updated_on>
+        <table>x_713641_request_m_service_request_table_pw</table>
+        <ui_policy display_value="Ui Policies che setta determinati record inc read only">5a84ec8447680110e3d98a5f746d43e9</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_ui_policy_action_42914d9447640110e3d98a5f746d4319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>active</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-16 15:41:16</sys_created_on><sys_id>42914d9447640110e3d98a5f746d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>active</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sys_ui_policy_action_42914d9447640110e3d98a5f746d4319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-16 15:41:16</sys_updated_on><table>x_713641_request_m_service_request_table_pw</table><ui_policy display_value="Ui Policies che setta determinati record inc read only">5a84ec8447680110e3d98a5f746d43e9</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-233276760</payload_hash>
+        <record_name>active</record_name>
+        <reverted_from/>
+        <source>b9dc6b8047600110e3d98a5f746d4366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 15:41:16</sys_created_on>
+        <sys_id>aff1c1d447640110e3d98a5f746d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dc3e7a0c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 15:41:16</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>e7f1c1d4496401101cfd6f8ea4bfdb1a</update_guid>
+        <update_guid_history>e7f1c1d4496401101cfd6f8ea4bfdb1a:-233276760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 15:46:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>64b5f94791324927ae2cb8f7f48194e1</sys_id>
+        <sys_metadata>42914d9447640110e3d98a5f746d4319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>active</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="">5a84ec8447680110e3d98a5f746d43e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_42914d9447640110e3d98a5f746d4319</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_42914d9447640110e3d98a5f746d4319">aff1c1d447640110e3d98a5f746d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 15:46:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

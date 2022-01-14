@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dde0254a47700110e3d98a5f746d43eb</sp_column>
+        <sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 14:42:05</sys_created_on>
+        <sys_id>f301a9ca47700110e3d98a5f746d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sp_instance_ais_f301a9ca47700110e3d98a5f746d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 14:42:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=f301a9ca47700110e3d98a5f746d4344"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sp_instance_ais_f301a9ca47700110e3d98a5f746d4344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">dde0254a47700110e3d98a5f746d43eb</sp_column><sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-03 14:42:05</sys_created_on><sys_id>f301a9ca47700110e3d98a5f746d4344</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sp_instance_ais_f301a9ca47700110e3d98a5f746d4344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-03 14:42:05</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=f301a9ca47700110e3d98a5f746d4344"/></record_update>]]></payload>
+        <payload_hash>1819391497</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 14:42:05</sys_created_on>
+        <sys_id>8811a9ca47700110e3d98a5f746d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e2063e7c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 14:42:05</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>c011a9caf0700110778d40fa8f993a46</update_guid>
+        <update_guid_history>c011a9caf0700110778d40fa8f993a46:1819391497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c8a12dca47700110e3d98a5f746d436d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-03 14:44:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>d7d3807d7e8b40f3abcf18a431239259</sys_id>
+        <sys_metadata>f301a9ca47700110e3d98a5f746d4344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_f301a9ca47700110e3d98a5f746d4344</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_f301a9ca47700110e3d98a5f746d4344">8811a9ca47700110e3d98a5f746d4346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-03 14:44:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

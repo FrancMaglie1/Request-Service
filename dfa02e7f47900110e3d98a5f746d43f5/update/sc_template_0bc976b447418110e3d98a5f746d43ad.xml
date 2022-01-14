@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template">
+    <sc_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for/>
+        <cat_item display_value="Catalog Item Builder">91edb87273221010c84e2bb43cf6a7ae</cat_item>
+        <name>Crea Richiesta</name>
+        <short_description/>
+        <sys_class_name>sc_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 10:13:36</sys_created_on>
+        <sys_id>0bc976b447418110e3d98a5f746d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crea Richiesta</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sc_template_0bc976b447418110e3d98a5f746d43ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 10:13:36</sys_updated_on>
+    </sc_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=0bc976b447418110e3d98a5f746d43ad"/>
+</record_update>

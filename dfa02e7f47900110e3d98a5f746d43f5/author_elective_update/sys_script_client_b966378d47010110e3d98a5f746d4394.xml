@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change State </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+	var changestate = g_form.getValue('state');
+
+    function statepending() {
+   var changestate = g_form.getValue('state');
+		if (changestate == -5 )
+            g_form.setValue('state', 'Pending');
+
+    }
+
+    function stateworkinprogress() {
+      var changestate = g_form.getValue('state');
+		if(changestate == 1)
+		g_form.setValue('state', 'Work_In_Progress');
+     
+    }
+
+    function closedcomplete() {
+        g_form.setValue('state', 'Closed_Complete');
+        return;
+    }
+}
+
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 09:25:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b966378d47010110e3d98a5f746d4394</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Change State </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_script_client_b966378d47010110e3d98a5f746d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 10:58:39</sys_updated_on>
+        <table>x_713641_request_m_richiesta_servizi</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_script_client_b966378d47010110e3d98a5f746d4394</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Change State &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+	var changestate = g_form.getValue('state');
+
+    function statepending() {
+   var changestate = g_form.getValue('state');
+		if (changestate == -5 )
+            g_form.setValue('state', 'Pending');
+
+    }
+
+    function stateworkinprogress() {
+      var changestate = g_form.getValue('state');
+		if(changestate == 1)
+		g_form.setValue('state', 'Work_In_Progress');
+     
+    }
+
+    function closedcomplete() {
+        g_form.setValue('state', 'Closed_Complete');
+        return;
+    }
+}
+
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-13 09:25:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b966378d47010110e3d98a5f746d4394&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change State &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b966378d47010110e3d98a5f746d4394&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-13 10:58:39&lt;/sys_updated_on&gt;&lt;table&gt;x_713641_request_m_richiesta_servizi&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>788092094</payload_hash>
+        <record_name>Change State </record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 10:58:39</sys_created_on>
+        <sys_id>3cdd8c9147810110e3d98a5f746d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e5316f2770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 10:58:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b4dd8c91038101107f33bc8a5595532c</update_guid>
+        <update_guid_history>b4dd8c91038101107f33bc8a5595532c:788092094,09ec04d187810110aa425b06238e40b3:-1632104206,ce8ccc910b810110ce1746875fd10698:1079510902,316c0451db810110f62768ba5424080a:-1927534928,fe8b8851b38101106501d55a4355bb6b:-7320892,47ba8411cd810110f6462d9ccfb149f8:-792854328,e09a4451268101103186778f727c1d99:941558007,9f6a041155810110dd1b1aabde6279d2:201462910,ea898411c3810110e77e891e7d17c30d:-612376538,488880dd3d410110f91a553673a486f3:-432261880,951800dd14410110bb0ade2839a0b795:-1124411896,206fbfc5b8410110896c8c5d038c7108:-1496973062,d81f7b85b441011074356937c2b7b3f2:411173971,0ccd7b850141011030b3931ec4f532ab:-480529015,275dfb45514101103a875d1b3a8f7320:-1827756011,55dcf7458b4101103226bc2bb08a4b94:1573304361,c77cbf0572410110d7a0d9d15a03c9ae:1879702242,326bfbc1794101105e39ec34352faf1c:1573304361,df687f41f4410110cffd4930a26ec60c:453695867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 11:39:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3ecb5fb3434b44c2b0daced19c2c8b19</sys_id>
+        <sys_metadata>b966378d47010110e3d98a5f746d4394</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change State </sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Richiesta Servizi">d942d7e147e4c110e3d98a5f746d430a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_b966378d47010110e3d98a5f746d4394</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b966378d47010110e3d98a5f746d4394">3cdd8c9147810110e3d98a5f746d432c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 11:39:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>plus</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Corp VPN">8b3ae7fedc1be1004ece5c08239e522b</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">18b2118e47300110e3d98a5f746d43a2</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 13:32:01</sys_created_on>
+        <sys_id>9957237c47c18110e3d98a5f746d43de</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Crea Richiesta</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sp_instance_link_9957237c47c18110e3d98a5f746d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:02:19</sys_updated_on>
+        <title>Crea Richiesta</title>
+        <type>sc_category</type>
+        <url>https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3Da80aaffc47c18110e3d98a5f746d436f%26sysparm_view%3D</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=9957237c47c18110e3d98a5f746d43de"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sp_instance_link_9957237c47c18110e3d98a5f746d43de</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;plus&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Corp VPN"&gt;8b3ae7fedc1be1004ece5c08239e522b&lt;/sc_cat_item&gt;&lt;sc_category display_value="Can We Help You?"&gt;e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/sc_category&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;18b2118e47300110e3d98a5f746d43a2&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-12 13:32:01&lt;/sys_created_on&gt;&lt;sys_id&gt;9957237c47c18110e3d98a5f746d43de&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Crea Richiesta&lt;/sys_name&gt;&lt;sys_package display_value="Request Management PW" source="x_713641_request_m"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Management PW"&gt;dfa02e7f47900110e3d98a5f746d43f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_9957237c47c18110e3d98a5f746d43de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-12 14:02:19&lt;/sys_updated_on&gt;&lt;title&gt;Crea Richiesta&lt;/title&gt;&lt;type&gt;sc_category&lt;/type&gt;&lt;url&gt;https://dev64135.service-now.com/nav_to.do?uri=%2Fx_713641_request_m_richiesta_servizi.do%3Fsys_id%3Da80aaffc47c18110e3d98a5f746d436f%26sysparm_view%3D&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9957237c47c18110e3d98a5f746d43de"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1474332037</payload_hash>
+        <record_name>Crea Richiesta</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 14:02:19</sys_created_on>
+        <sys_id>554e233447058110e3d98a5f746d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4e98bbf70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:02:19</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>dd4e2334ce058110ed7caa2ccda9acb5</update_guid>
+        <update_guid_history>dd4e2334ce058110ed7caa2ccda9acb5:-1474332037,8f1eebf01a05811099cbe50d316e20a2:673518113,d0bd67f0cd0581101ef453f154789575:-482678533,bfdcebb091058110d0b35049e2cb6b4a:327858779,bface7b06e058110a983deafc76871b2:-334721450,ec1a23305c058110ef10f5dcba95f5f3:2070420404,4bd9ebfc2cc18110902cd07b77d2dbb4:1029663536,63996bfc6bc18110c70ef7a9d2b0e3fb:1198185295,d88967fc89c181102505c7f0ed9d66d1:-517165647,6f49e3fc06c1811093a088cae03a6a78:-2136775086,84f82fbcddc18110fa4aa5d4c1e1a7f4:1229372477,38d82bbc2dc181109d30dede40d543fd:1182003614,0db8e7bcd8c18110f1397dc56f1f1b6d:1799943798,ede7a77cbcc18110e15a838b842a8f19:1415817580,2ea7a37cf6c18110b1f3352b696a1b75:-69660663,1767ef3c6ac18110e5d1a3e0d12eb1f0:-1147243148,9557237c4ac1811004af439097be54e0:1174271533</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Crea Richiesta">f85e233447058110e3d98a5f746d43f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 14:02:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>575571d4f24b4a4ba8c003438b2726a1</sys_id>
+        <sys_metadata>9957237c47c18110e3d98a5f746d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Crea Richiesta</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_9957237c47c18110e3d98a5f746d43de</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_9957237c47c18110e3d98a5f746d43de">554e233447058110e3d98a5f746d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

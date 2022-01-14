@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Service Request  Table PW</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Service Request  Table PW</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">246ed24ba9223010c0a065f439e661f8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-15 09:32:39</sys_created_on>
+        <sys_id>4604a67347d00110e3d98a5f746d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Request  Table PW</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_wizard_answer_4604a67347d00110e3d98a5f746d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-15 09:32:39</sys_updated_on>
+        <table/>
+        <target_url>x_713641_request_m_service_request_table_pw.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_wizard_answer_4604a67347d00110e3d98a5f746d4365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Service Request  Table PW</answer><button_label/><dependent_value/><element/><name>Service Request  Table PW</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">246ed24ba9223010c0a065f439e661f8</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-15 09:32:39</sys_created_on><sys_id>4604a67347d00110e3d98a5f746d4365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Request  Table PW</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sys_wizard_answer_4604a67347d00110e3d98a5f746d4365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-15 09:32:39</sys_updated_on><table/><target_url>x_713641_request_m_service_request_table_pw.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-589054137</payload_hash>
+        <record_name>Service Request  Table PW</record_name>
+        <reverted_from/>
+        <source>0a56788147133010e3d98a5f746d43ad</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-10-17 19:27:20</sys_created_on>
+        <sys_id>4e2427654728c110e3d98a5f746d43d2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17c8fb905c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>0e2427652f28c110fffc277d8b5f5bd2</update_guid>
+        <update_guid_history>0e2427652f28c110fffc277d8b5f5bd2:-589054137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-21 00:42:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2851d307fb7a49c093450a2b5f2d6584</sys_id>
+        <sys_metadata>4604a67347d00110e3d98a5f746d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Request  Table PW</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent display_value="Task">246ed24ba9223010c0a065f439e661f8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_4604a67347d00110e3d98a5f746d4365</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_4604a67347d00110e3d98a5f746d4365">4e2427654728c110e3d98a5f746d43d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-21 00:42:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

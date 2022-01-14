@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:04:11</sys_created_on>
+        <sys_id>3e44e8b447300110e3d98a5f746d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_update_name>sys_properties_3e44e8b447300110e3d98a5f746d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:04:11</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=3e44e8b447300110e3d98a5f746d4320"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</application>
+        <file_path/>
+        <instance_id>bf4bbe98db5717084f035d00cf96193d</instance_id>
+        <instance_name>dev64135</instance_name>
+        <name>sys_properties_3e44e8b447300110e3d98a5f746d4320</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-30 13:04:11</sys_created_on><sys_id>3e44e8b447300110e3d98a5f746d4320</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</sys_name><sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package><sys_policy/><sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope><sys_update_name>sys_properties_3e44e8b447300110e3d98a5f746d4320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-30 13:04:11</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=3e44e8b447300110e3d98a5f746d4320"/></record_update>]]></payload>
+        <payload_hash>647632782</payload_hash>
+        <record_name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>46e12de54760c110e3d98a5f746d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:04:12</sys_created_on>
+        <sys_id>8b44e8b447300110e3d98a5f746d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e0b70d9040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:04:12</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>8344e8b49a300110fe40b7142bb02423</update_guid>
+        <update_guid_history>8344e8b49a300110fe40b7142bb02423:647632782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-30 13:26:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>164f2b638e534df8bab4cb5098a82790</sys_id>
+        <sys_metadata>3e44e8b447300110e3d98a5f746d4320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.SRQ.enable_rem_conversion</sys_name>
+        <sys_package display_value="Request Management PW" source="x_713641_request_m">dfa02e7f47900110e3d98a5f746d43f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Management PW">dfa02e7f47900110e3d98a5f746d43f5</sys_scope>
+        <sys_scope_delete display_value="">9482f53d15fd4aaa9a885142079010a4</sys_scope_delete>
+        <sys_update_name>sys_properties_3e44e8b447300110e3d98a5f746d4320</sys_update_name>
+        <sys_update_version display_value="sys_properties_3e44e8b447300110e3d98a5f746d4320">8b44e8b447300110e3d98a5f746d4323</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-30 13:26:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
